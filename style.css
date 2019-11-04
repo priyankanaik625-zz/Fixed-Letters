@@ -10,6 +10,27 @@ body {
 
 .section {
     min-height: 80vh;
+    background: url('u-red.svg'), url('b-red.svg'), url('g-red.svg'), url('r-red.svg');
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: top 100px left 300px, center center, right 200px top 100px, right 200px bottom 100px;
+    background-attachment: fixed;
+}
+
+.section:nth-child(2) {
+    background: url('u-yellow.svg'), url('b-yellow.svg'), url('g-yellow.svg'), url('r-yellow.svg');
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: top 100px left 300px, center center, right 200px top 100px, right 200px bottom 100px;
+    background-attachment: fixed;
+}
+
+.section:nth-child(3) {
+    background: url('u-green.svg'), url('b-green.svg'), url('g-green.svg'), url('r-green.svg');
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: top 100px left 300px, center center, right 200px top 100px, right 200px bottom 100px;
+    background-attachment: fixed;
 }
 
 .section:nth-child(1) {
@@ -29,32 +50,4 @@ body {
     max-width: 1024px;
     width: 100%;
     padding: 40px 20px;
-}
-
-
-/* Additional styles for fixed letters and color-change */
-.letters__letter { 
-    position: fixed;
-    mix-blend-mode: overlay;
-    list-style-type: none;
-}
-
-.letters__letter:nth-child(1) {
-    left: 0;
-    top: 20%;
-}
-
-.letters__letter:nth-child(2) {
-    left: 20%;
-    top: 40%;
-}
-
-.letters__letter:nth-child(3) {
-    left: 40%;
-    top: 20%;
-}
-
-.letters__letter:nth-child(4) {
-    left: 70%;
-    top: 40%;
 }
