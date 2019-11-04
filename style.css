@@ -1,0 +1,60 @@
+/* Basic style */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 30px;
+}
+
+.section {
+    min-height: 80vh;
+}
+
+.section:nth-child(1) {
+    background-color: #556964;
+}
+
+.section:nth-child(2) {
+    background-color: #FF9600;
+}
+
+.section:nth-child(3) {
+    background-color: #ffff00b3;
+}
+
+.section__content {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+
+/* Additional styles for fixed letters and color-change */
+.letters__letter { 
+    position: fixed;
+    mix-blend-mode: overlay;
+    list-style-type: none;
+}
+
+.letters__letter:nth-child(1) {
+    left: 0;
+    top: 20%;
+}
+
+.letters__letter:nth-child(2) {
+    left: 20%;
+    top: 40%;
+}
+
+.letters__letter:nth-child(3) {
+    left: 40%;
+    top: 20%;
+}
+
+.letters__letter:nth-child(4) {
+    left: 70%;
+    top: 40%;
+}
